@@ -1,0 +1,2798 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Easy car rental</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="assets/css/loginUtil.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/loginMain.css">
+    <!--===============================================================================================-->
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+
+      body>header{
+        background-color: #2c3e50;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+        padding: 20px 0 20px 10px;
+        display: flex;
+      }
+
+      .form-control {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + .75rem + 2px);
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: .25rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+      }
+
+
+
+    </style>
+
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+    <div class="site-wrap" id="home-section">
+
+      <section id="header">
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+
+      <header class="site-navbar site-navbar-target" role="banner">
+        <div class="dashboard-header">
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3 ">
+              <div class="site-logo">
+                <a href="#">Easy Car</a>
+              </div>
+            </div>
+
+            <div class="col-9  text-right">
+              
+
+              <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+
+              
+
+              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                  <li class="active"><a href="#" id="btn-dashboard" class="nav-link">Dashboard</a></li>
+                  <li><a href="#" id="btn-home" class="nav-link">Home</a></li>
+                  <li><a href="#" id="btn-cars" class="nav-link">Cars</a></li>
+                  <li><a href="#" id="btn-services" class="nav-link">Services</a></li>
+                  <li><a href="#" id="btn-about" class="nav-link">About</a></li>
+<!--                  <li><a href="#" id="btn-blog" class="nav-link">Blog</a></li>-->
+                  <li><a href="#" id="btn-contact" class="nav-link">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            
+          </div>
+        </div>
+        </div>
+      </header>
+
+
+      <br>
+      <br>
+      <br>
+
+      </section>
+
+
+
+      <section id="guestHeader">
+        <div class="site-mobile-menu site-navbar-target">
+          <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+              <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+          </div>
+          <div class="site-mobile-menu-body"></div>
+        </div>
+
+
+
+        <header class="site-navbar site-navbar-target" role="banner">
+          <div class="dashboard-header">
+            <div class="container">
+              <div class="row align-items-center position-relative">
+
+                <div class="col-3 ">
+                  <div class="site-logo">
+                    <a href="i#">Easy Car</a>
+                  </div>
+                </div>
+
+                <div class="col-9  text-right">
+
+
+                  <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+
+
+
+                  <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                    <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                      <li><a href="#" id="btn-homeGuest" class="nav-link">Home</a></li>
+                      <li><a href="#" id="btn-carsGuest" class="nav-link">Cars</a></li>
+                      <li><a href="#" id="btn-servicesGuest" class="nav-link">Services</a></li>
+                      <li><a href="#" id="btn-aboutGuest" class="nav-link">About</a></li>
+                      <!--<li><a href="#" id="btn-blogGuest" class="nav-link">Blog</a></li>-->
+                      <li><a href="#" id="btn-contactGuest" class="nav-link">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </header>
+
+
+        <br>
+        <br>
+        <br>
+      </section>
+
+
+      <section id="driverShedulePage">
+
+        <div class="site-mobile-menu site-navbar-target">
+          <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+              <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+          </div>
+          <div class="site-mobile-menu-body"></div>
+        </div>
+
+
+
+        <header class="site-navbar site-navbar-target" role="banner">
+          <div class="dashboard-header">
+            <div class="container">
+              <div class="row align-items-center position-relative">
+
+                <div class="col-3 ">
+                  <div class="site-logo">
+                    <a href="#">Car Rental</a>
+                  </div>
+                </div>
+
+                <div class="col-9  text-right">
+
+
+                  <span class="d-inline-block d-lg-none"><a href="#" class="text-white site-menu-toggle js-menu-toggle py-5 text-white"><span class="icon-menu h3 text-white"></span></a></span>
+
+
+
+                  <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                    <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                      <h1 style="color: black">ddddddddddddddddddddddd</h1>
+                    </ul>
+                  </nav>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <br>
+        <br>
+        <br>
+
+        <section class="col-12" id="customer">
+          <div class="jumbotron bg-beige">
+            <h6 class="h1">Shedule</h6>
+          </div>
+          <section class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 <!--border--> pt-4 pb-3 bg-light">
+              <form action="">
+                <div class="form-group">
+                  <label for="caNo">Car No</label>
+                  <input type="text" class="form-control" id="caNo" placeholder="No">
+                </div>
+                <div class="form-group">
+                  <label for="custNme">Customer Name</label>
+                  <input type="text" class="form-control" id="custNme" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="addres">Customer Address</label>
+                  <input type="text" class="form-control" id="addres" placeholder="Address">
+                </div>
+                <div class="form-group">
+                  <label for="nc">NIC</label>
+                  <input type="text" class="form-control" id="nc" placeholder="NIC">
+                </div>
+                <div class="form-group">
+                  <label for="contact">Contact</label>
+                  <input type="text" class="form-control" id="conact" placeholder="Contact">
+                </div>
+                <section class="row justify-content-center">
+                  <div class="form-group">
+                    <button id="btnSaveCusmer" type="button" class="btn btn-primary">Add</button>
+                    <button id="btnUpdatestomer" type="button" class="btn btn-secondary">Update</button>
+                    <button id="btnDeleCustomer" type="button" class="btn btn-danger">Delete</button>
+                  </div>
+                </section>
+              </form>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-8 <!--border-->">
+
+
+              <form class="form-inline my-2 my-lg-2 justify-content-end">
+                <input class="form-control mr-sm-2 mt-2 my-2" type="search" placeholder="Search"
+                       aria-label="Search">
+                <button class="btn btn-outline-warning my-1 my-sm-0 mt-2 " type="submit">Search</button>
+              </form>
+              <section class="table-responsive h-75">
+                <table class="table table-bordered table-hover table-sm" data-spy="scroll" data-offset="0">
+                  <thead class="bg-primary">
+                  <tr>
+                    <th>Driver ID</th>
+                    <th>Driver Name</th>
+                    <th>Car No</th>
+                    <th>Model</th>
+                    <th>PickupDate</th>
+                    <th>ReturnDate</th>
+                  </tr>
+                  <thead>
+                  <tbody id="tblDriverShedule">
+                  <!-- <tr>
+                       <td>C001</td>
+                       <td>Lasindu</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>
+
+
+
+                   <tr>
+                       <td>C003</td>
+                       <td>Ashan</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>-->
+
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </section>
+
+        </section>
+
+
+        <div class="site-section bg-light">
+
+        </div>
+
+
+
+        <div class="container site-section mb-5">
+
+        </div>
+
+
+        <div class="site-section bg-light">
+
+        </div>
+
+
+        <div class="site-section bg-white">
+
+        </div>
+
+      </section>
+
+
+      <section class="col-12" id="dashboard">
+        <div class="jumbotron">
+<!--           <h1>Dashboard</h1>-->
+          <section class="row justify-content-start">
+            <div class="form-group">
+              <button id="btn-ManageCars" type="button" class="btn btn-success">Manage Cars</button>
+              <button id="btn-ManageDrivers" type="button" class="btn btn-success">Manage Drivers</button>
+              <button id="btn-ManageCustomerRequests" type="button" class="btn btn-success">Manage Requets</button>
+              <button id="btn-ManagePayment" type="button" class="btn btn-success">Payment</button>
+            </div>
+          </section>
+        </div>
+        <div class="row m-5">
+          <div class="col m-5 bg-dark">
+            <h3 class="text-white text-center mb-4 mt-5">Total Customers</h3>
+<!--            <span class="icon-user text-warning"></span>-->
+            <h2 class="text-white text-center mb-5 mt-4" id="txtTotalCustomerH2">00</h2>
+          </div>
+          <div class="col m-5 bg-primary">
+            <h3 class="text-white text-center mb-4 mt-5"><i class="fas fa-baby mr-3"></i>Avilable Cars</h3>
+            <h2 class="text-white text-center mb-5 mt-4" id="txtAvailableCarsH2">00</h2>
+          </div>
+          <div class="col m-5 bg-danger">
+            <h3 class="text-white text-center mb-4 mt-5"><i class="fas fa-calendar mr-3"></i>Available Drivers</h3>
+            <h2 class="text-white text-center mb-5 mt-4" id="txtAvailableDriverH2">00</h2>
+          </div>
+          <div class="col m-5 bg-warning">
+            <h3 class="text-white text-center mb-4 mt-5"><i class="fas fa-calculator mr-3"></i>Monthly Income</h3>
+            <h2 class="text-white text-center mb-5 mt-4">00</h2>
+          </div>
+        </div>
+
+    
+
+    <div class="site-section bg-light">
+
+    </div>
+
+    <div class="site-section section-3" style="background-image: url('assets/images/hero_2.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <h2 class="text-white">Our services</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="service-1">
+              <span class="service-1-icon">
+                <span class="flaticon-car-1"></span>
+              </span>
+              <div class="service-1-contents">
+                <h3>Repair</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-1">
+              <span class="service-1-icon">
+                <span class="flaticon-traffic"></span>
+              </span>
+              <div class="service-1-contents">
+                <h3>Car Accessories</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="service-1">
+              <span class="service-1-icon">
+                <span class="flaticon-valet"></span>
+              </span>
+              <div class="service-1-contents">
+                <h3>Own a Car</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container site-section mb-5">
+      <div class="row justify-content-center text-center">
+        <div class="col-7 text-center mb-5">
+          <h2>How it works</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+        </div>
+      </div>
+      <div class="how-it-works d-flex">
+        <div class="step">
+          <span class="number"><span>01</span></span>
+          <span class="caption">Time &amp; Place</span>
+        </div>
+        <div class="step">
+          <span class="number"><span>02</span></span>
+          <span class="caption">Car</span>
+        </div>
+        <div class="step">
+          <span class="number"><span>03</span></span>
+          <span class="caption">Details</span>
+        </div>
+        <div class="step">
+          <span class="number"><span>04</span></span>
+          <span class="caption">Checkout</span>
+        </div>
+        <div class="step">
+          <span class="number"><span>05</span></span>
+          <span class="caption">Done</span>
+        </div>
+
+      </div>
+    </div>
+    
+    
+   <!-- <div class="site-section bg-light">
+
+    </div>
+
+
+    <div class="site-section bg-white">
+
+    </div>-->
+
+      </section>
+
+
+
+
+      <section id="homepage">
+
+        <div class="ftco-blocks-cover-1">
+          <div class="ftco-cover-1 overlay" style="background-image: url('assets/images/hero_1.jpg')">
+            <div class="container">
+              <div class="row align-items-center">
+                <!--<div class="col-lg-5">
+                  <div class="feature-car-rent-box-1">
+                    <h3>Range Rover S7</h3>
+                    <ul class="list-unstyled">
+                      <li>
+                        <span>Doors</span>
+                        <span class="spec">4</span>
+                      </li>
+                      <li>
+                        <span>Seats</span>
+                        <span class="spec">6</span>
+                      </li>
+                      <li>
+                        <span>Lugage</span>
+                        <span class="spec">2 Suitcase/2 Bags</span>
+                      </li>
+                      <li>
+                        <span>Transmission</span>
+                        <span class="spec">Automatic</span>
+                      </li>
+                      <li>
+                        <span>Minium age</span>
+                        <span class="spec">Automatic</span>
+                      </li>
+                    </ul>
+                    <div class="d-flex align-items-center bg-light p-3">
+                      <span>$150/day</span>
+                      <a href="#" class="ml-auto btn btn-primary">Rent Now</a>
+                    </div>
+                  </div>
+                </div>-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section pt-0 pb-0 bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+
+                <!--<form class="trip-form">
+                  <div class="row align-items-center mb-4">
+                    <div class="col-md-6">
+                      <h3 class="m-0">Begin your trip here</h3>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                      <span class="text-primary">32</span> <span>cars available</span></span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-md-3">
+                      <label for="cf-1">Where you from</label>
+                      <input type="text" id="cf-11" placeholder="Your pickup address" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="cf-2">Where you go</label>
+                      <input type="text" id="cf-22" placeholder="Your drop-off address" class="form-control">
+                    </div>
+                    <div class="form-group col-md-33">
+                      <label for="cf-3">Journey date</label>
+                      <input type="text" id="cf-33" placeholder="Your pickup address" class="form-control datepicker px-3">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="cf-4">Return date</label>
+                      <input type="text" id="cf-44" placeholder="Your pickup address" class="form-control datepicker px-3">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                  </div>
+                </form>-->
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="site-section bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3">
+                <h3>Our Offer</h3>
+                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nesciunt nemo vel earum maxime neque!</p>
+                <p>
+                  <a href="#" class="btn btn-primary custom-prev">Previous</a>
+                  <span class="mx-2">/</span>
+                  <a href="#" class="btn btn-primary custom-next">Next</a>
+                </p>
+              </div>
+              <div class="col-lg-9">
+
+
+
+
+                <div class="nonloop-block-13 owl-carousel">
+
+                  <div class="item-1" id="slideShow">
+                    <a href="#"><img src="assets/images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                    <div class="item-1-contents">
+                      <div class="text-center">
+                        <h3><a href="#">Range Rover S64 Coupe</a></h3>
+                        <div class="rating">
+                          <span class="icon-star text-warning"></span>
+                          <span class="icon-star text-warning"></span>
+                          <span class="icon-star text-warning"></span>
+                          <span class="icon-star text-warning"></span>
+                          <span class="icon-star text-warning"></span>
+                        </div>
+                        <div class="rent-price"><span>Rs.80/</span>daily rate for rs</div>
+                      </div>
+                      <ul class="specs">
+                        <li>
+                          <span>Car No</span>
+                          <span class="spec">BHF5163</span>
+                        </li>
+                        <li>
+                          <span>Seats</span>
+                          <span class="spec">4</span>
+                        </li>
+                        <li>
+                          <span>Transmission</span>
+                          <span class="spec">auto</span>
+                        </li>
+                        <li>
+                          <span>Brand</span>
+                          <span class="spec">luxry</span>
+                        </li>
+                        <li>
+                          <span>Monthly rate for Rs</span>
+                          <span class="spec">70</span>
+                        </li>
+                        <li>
+                          <span>Daily rate for Km</span>
+                          <span class="spec">100</span>
+                        </li>
+                        <li>
+                          <span>Monthly rate for Km</span>
+                          <span class="spec">1000</span>
+                        </li>
+                      </ul>
+                      <div class="d-flex action">
+                        <a href="#" class="btn btn-primary">Rent Now</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="item-1">
+                    <a href="#"><img src="assets/images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                    <div class="item-1-contents">
+                      <div class="text-center">
+                        <h3><a href="#">Range Rover S64 Coupe</a></h3>
+                        <div class="rating">
+                          <span class="icon-star text-warning"></span>
+                          <span class="icon-star text-warning"></span>
+                          <span class="icon-star text-warning"></span>
+                          <span class="icon-star text-warning"></span>
+                          <span class="icon-star text-black"></span>
+                        </div>
+                        <div class="rent-price"><span>Rs.90/</span>daily rate for rs</div>
+                      </div>
+                      <ul class="specs">
+                        <li>
+                          <span>Car No</span>
+                          <span class="spec">ABC12</span>
+                        </li>
+                        <li>
+                          <span>Seats</span>
+                          <span class="spec">6</span>
+                        </li>
+                        <li>
+                          <span>Transmission</span>
+                          <span class="spec">manual</span>
+                        </li>
+                        <li>
+                          <span>Brand</span>
+                          <span class="spec">genaral</span>
+                        </li>
+                        <li>
+                          <span>Monthly rate for Rs</span>
+                          <span class="spec">90</span>
+                        </li>
+                        <li>
+                          <span>Daily rate for Km</span>
+                          <span class="spec">120</span>
+                        </li>
+                        <li>
+                          <span>Monthly rate for Km</span>
+                          <span class="spec">2000</span>
+                        </li>
+                      </ul>
+                      <div class="d-flex action">
+                        <a href="#" class="btn btn-primary">Rent Now</a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section section-3" style="background-image: url('assets/images/hero_2.jpg');">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center mb-5">
+                <h2 class="text-white">Our services</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="service-1">
+              <span class="service-1-icon">
+                <span class="flaticon-car-1"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Repair</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="service-1">
+              <span class="service-1-icon">
+                <span class="flaticon-traffic"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Car Accessories</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="service-1">
+              <span class="service-1-icon">
+                <span class="flaticon-valet"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Own a Car</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="container site-section mb-5">
+          <div class="row justify-content-center text-center">
+            <div class="col-7 text-center mb-5">
+              <h2>How it works</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+            </div>
+          </div>
+          <div class="how-it-works d-flex">
+            <div class="step">
+              <span class="number"><span>01</span></span>
+              <span class="caption">Time &amp; Place</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>02</span></span>
+              <span class="caption">Car</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>03</span></span>
+              <span class="caption">Details</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>04</span></span>
+              <span class="caption">Checkout</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>05</span></span>
+              <span class="caption">Done</span>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="site-section bg-light">
+          <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-7 text-center mb-5">
+                <h2>Customer Testimony</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="testimonial-2">
+                  <blockquote class="mb-4">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
+                  </blockquote>
+                  <div class="d-flex v-card align-items-center">
+                    <img src="assets/images/person_1.jpg" alt="Image" class="img-fluid mr-3">
+                    <span>Hashen</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="testimonial-2">
+                  <blockquote class="mb-4">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
+                  </blockquote>
+                  <div class="d-flex v-card align-items-center">
+                    <img src="assets/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
+                    <span>Nuwangi</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-4 mb-lg-0">
+                <div class="testimonial-2">
+                  <blockquote class="mb-4">
+                    <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, deserunt eveniet veniam. Ipsam, nam, voluptatum"</p>
+                  </blockquote>
+                  <div class="d-flex v-card align-items-center">
+                    <img src="assets/images/person_3.jpg" alt="Image" class="img-fluid mr-3">
+                    <span>Nimantha</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="site-section bg-white">
+          <div class="container">
+            <div class="row justify-content-center text-center mb-5">
+              <div class="col-7 text-center mb-5">
+                <h2>Our Blog</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="#">
+                    <img src="assets/images/post_1.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="#">The best car rent in the entire planet</a></h2>
+<!--                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="#">
+                    <img src="assets/images/img_2.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="#">The best car rent in the entire planet</a></h2>
+<!--                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="#">
+                    <img src="assets/images/img_3.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="#">The best car rent in the entire planet</a></h2>
+<!--                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>-->
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+
+      <section id="services">
+
+        <div class="ftco-blocks-cover-1">
+          <div class="ftco-cover-1 overlay innerpage" style="background-image: url('assets/images/hero_2.jpg')">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h1>Our Services</h1>
+<!--                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 mb-4 mb-lg-5">
+                <div class="service-1 dark">
+              <span class="service-1-icon">
+                <span class="flaticon-car"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Car Key</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-4 mb-lg-5">
+                <div class="service-1 dark">
+              <span class="service-1-icon">
+                <span class="flaticon-valet-1"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Car Key</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-4 mb-lg-5">
+                <div class="service-1 dark">
+              <span class="service-1-icon">
+                <span class="flaticon-key"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Car Key</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-4 mb-lg-5">
+                <div class="service-1 dark">
+              <span class="service-1-icon">
+                <span class="flaticon-car-1"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Repair</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-4 mb-lg-5">
+                <div class="service-1 dark">
+              <span class="service-1-icon">
+                <span class="flaticon-traffic"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Car Accessories</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mb-4 mb-lg-5">
+                <div class="service-1 dark">
+              <span class="service-1-icon">
+                <span class="flaticon-valet"></span>
+              </span>
+                  <div class="service-1-contents">
+                    <h3>Own a Car</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, laboriosam.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container site-section mb-5">
+          <div class="row justify-content-center text-center">
+            <div class="col-7 text-center mb-5">
+              <h2>How it works</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+            </div>
+          </div>
+          <div class="how-it-works d-flex">
+            <div class="step">
+              <span class="number"><span>01</span></span>
+              <span class="caption">Time &amp; Place</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>02</span></span>
+              <span class="caption">Car</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>03</span></span>
+              <span class="caption">Details</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>04</span></span>
+              <span class="caption">Checkout</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>05</span></span>
+              <span class="caption">Done</span>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+      <section id="cars">
+
+       <!-- <div class="ftco-blocks-cover-1">
+          <div class="ftco-cover-1 overlay innerpage" style="background-image: url('assets/images/hero_2.jpg')">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h1>Our For Rent Cars</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+
+        <div class="ftco-blocks-cover-1">
+          <div class="ftco-cover-1 overlay" style="background-image: url('assets/images/hero_2.jpg')">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-5" id="carBookingForm">
+                  <div class="feature-car-rent-box-1" style="width: 100%">
+<!--                    <h3>Range Rover S7</h3>-->
+                    <input type="text" class="form-control" id="txtCarBookingID" placeholder="Enter car no">
+                    <button id="btnSearchBookingCarDetails" type="button" style="background-color: #7bc8fa">Search</button>
+                    <h3 id="carModelH3"><!--Range Rover S7--></h3>
+                    <ul class="list-unstyled">
+                      <li>
+                        <span>Transmission</span>
+                        <input type="text" class="form-control" id="txtTransmission">
+                      </li>
+                      <li>
+                        <span>Daily rate for Rs</span>
+                        <input type="text" class="form-control" id="txtDailyRateForRs">
+                      </li>
+                      <li>
+                        <span>Monthly rate for Rs</span>
+                        <input type="text" class="form-control" id="txtMonthlyRateForRs">
+                      </li>
+                      <!--<li>
+                        <span>Transmission</span>
+                        <input type="text" class="form-control" id="txtCgID" placeholder="Enter car no">
+                      </li>
+                      <li>
+                        <span>Minium age</span>
+                        <input type="text" class="form-control" id="txtCarD" placeholder="Enter car no">
+                      </li>-->
+                    </ul>
+                    <div class="d-flex align-items-center bg-light p-3">
+                      <span id="txtWadada"></span>
+                      <a href="#btn-displaySubmitForm" class="ml-auto btn btn-primary" id="btn-displaySubmitForm" onclick="displaySubmitForm()">Rent Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section pt-0 pb-0 bg-light" id="carBookingSubmitForm">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+
+                <form class="trip-form">
+                  <div class="row align-items-center mb-4">
+                    <div class="col-md-6">
+                      <h3 class="m-0">Begin your trip here</h3>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                      <div class="from btn-group">
+                        <h6 class="text-primary" id="txtAvailableCar">00</h6> &nbsp;
+                        <p>cars available</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-md-3">
+                      <label for="cf-1">Do you want a Driver</label>
+                      <input type="text" id="cf-1" placeholder="Do you want driver" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="cf-2">Damage fee</label>
+                      <input type="text" id="cf-2" placeholder="Damage fee" class="form-control">
+                    </div>
+                    <div class="form-group col-md-33">
+                      <label for="cf-3">Journey date</label>
+                      <input type="text" id="cf-3" placeholder="Select pickup date" class="form-control datepicker px-3">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="cf-4">Return date</label>
+                      <input type="text" id="cf-4" placeholder="Select return date" class="form-control datepicker px-3">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <input type="button" value="Submit" class="btn btn-primary" onclick="btnSubmitForm()">
+                      <!--<a href="#" class="ml-auto btn btn-primary" id="btn-submitDetails">Sun</a>-->
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section bg-light">
+          <div class="container">
+            <!--<div class="row">
+              <div class="col-12">
+
+                <form class="trip-form">
+                  <div class="row align-items-center mb-4">
+                    <div class="col-md-6">
+                      <h3 class="m-0">Begin your trip here</h3>
+                    </div>
+                    <div class="col-md-6 text-md-right">
+                      <span class="text-primary">32</span> <span>cars available</span></span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="form-group col-md-3">
+                      <label for="cf-1">Where you from</label>
+                      <input type="text" id="cf-1" placeholder="Your pickup address" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="cf-2">Where you go</label>
+                      <input type="text" id="cf-2" placeholder="Your drop-off address" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="cf-3">Journey date</label>
+                      <input type="text" id="cf-3" placeholder="Your pickup address" class="form-control datepicker px-3">
+                    </div>
+                    <div class="form-group col-md-3">
+                      <label for="cf-4">Return date</label>
+                      <input type="text" id="cf-4" placeholder="Your pickup address" class="form-control datepicker px-3">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>-->
+            <div class="form-group col-lg-4 col-xl-4">
+              <label>Select :</label>
+              <select class="form-control" id="selectCustomerID">
+                <!--<option value="default" disabled selected>Customer Id</option>-->
+              </select>
+              <span class="control-error" id="customer-empty-error"></span>
+            </div>
+            <div class="row" id="carRow">
+
+
+
+              <div class="col-12">
+                <span class="p-3">1</span>
+                <a href="#" class="p-3">2</a>
+                <a href="#" class="p-3">3</a>
+                <a href="#" class="p-3">4</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container site-section mb-5">
+          <div class="row justify-content-center text-center">
+            <div class="col-7 text-center mb-5">
+              <h2>How it works</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+            </div>
+          </div>
+          <div class="how-it-works d-flex">
+            <div class="step">
+              <span class="number"><span>01</span></span>
+              <span class="caption">Time &amp; Place</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>02</span></span>
+              <span class="caption">Car</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>03</span></span>
+              <span class="caption">Details</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>04</span></span>
+              <span class="caption">Checkout</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>05</span></span>
+              <span class="caption">Done</span>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+      <section id="about">
+
+        <div class="ftco-blocks-cover-1">
+          <div class="ftco-cover-1 overlay innerpage" style="background-image: url('assets/images/hero_2.jpg')">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h1>About Us</h1>
+<!--                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="site-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2">
+                <img src="assets/images/hero_2.jpg" alt="Image" class="img-fluid">
+              </div>
+              <div class="col-lg-4 mr-auto">
+                <h2>Eazy Car Company</h2>
+                <p>Eazy car rental privete limited is a car rental setvice with 5 years of history.</p>
+                <p>Eazy car rental privete limited is a car rental setvice with 5 years of history.</p>
+                <p>Eazy car rental privete limited is a car rental setvice with 5 years of history.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section bg-light">
+          <div class="container">
+            <div class="row justify-content-center text-center mb-5 section-2-title">
+              <div class="col-md-6">
+                <span class="text-primary">Our Employees</span>
+                <h2 class="mb-4">Meet Our Employees</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis provident eius ratione velit, voluptas laborum nemo quas ad necessitatibus placeat?</p>
+              </div>
+            </div>
+            <div class="row align-items-stretch">
+
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="post-entry-1 h-100 person-1">
+
+                  <img src="assets/images/person_1.jpg" alt="Image"
+                       class="img-fluid">
+
+                  <div class="post-entry-1-contents">
+<!--                    <span class="meta">Founder</span>-->
+                    <h2>Nimantha</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="post-entry-1 h-100 person-1">
+
+                  <img src="assets/images/person_4.jpg" alt="Image"
+                       class="img-fluid">
+
+                  <div class="post-entry-1-contents">
+<!--                    <span class="meta">Founder</span>-->
+                    <h2>Himansa</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="post-entry-1 h-100 person-1">
+
+                  <img src="assets/images/person_1.jpg" alt="Image"
+                       class="img-fluid">
+
+                  <div class="post-entry-1-contents">
+<!--                    <span class="meta">Founder</span>-->
+                    <h2>Kasun</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="post-entry-1 h-100 person-1">
+
+                  <img src="assets/images/person_4.jpg" alt="Image"
+                       class="img-fluid">
+
+                  <div class="post-entry-1-contents">
+<!--                    <span class="meta">Founder</span>-->
+                    <h2>Hemantha</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="post-entry-1 h-100 person-1">
+
+                  <img src="assets/images/person_1.jpg" alt="Image"
+                       class="img-fluid">
+
+                  <div class="post-entry-1-contents">
+<!--                    <span class="meta">Founder</span>-->
+                    <h2>Navindu</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-5">
+                <div class="post-entry-1 h-100 person-1">
+
+                  <img src="assets/images/person_4.jpg" alt="Image"
+                       class="img-fluid">
+
+                  <div class="post-entry-1-contents">
+<!--                    <span class="meta">Founder</span>-->
+                    <h2>Hasintha</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, sapiente.</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 mb-5 mb-lg-0">
+                <img src="assets/images/hero_1.jpg" alt="Image" class="img-fluid">
+              </div>
+              <div class="col-lg-4 ml-auto">
+                <h2>Our History</h2>
+                <p>Eazy car rental privete limited is a car rental setvice with 5 years of history.</p>
+                <p>Eazy car rental privete limited is a car rental setvice with 5 years of history.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container site-section mb-5">
+          <div class="row justify-content-center text-center">
+            <div class="col-7 text-center mb-5">
+              <h2>How it works</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+            </div>
+          </div>
+          <div class="how-it-works d-flex">
+            <div class="step">
+              <span class="number"><span>01</span></span>
+              <span class="caption">Time &amp; Place</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>02</span></span>
+              <span class="caption">Car</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>03</span></span>
+              <span class="caption">Details</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>04</span></span>
+              <span class="caption">Checkout</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>05</span></span>
+              <span class="caption">Done</span>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+
+      <section id="blog">
+
+        <div class="ftco-blocks-cover-1">
+          <div class="ftco-cover-1 overlay innerpage" style="background-image: url('assets/images/hero_2.jpg')">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h1>Car Articles</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="../02_Back_End/assests/ainkaranaTika/single.html">
+                    <img src="assets/images/post_1.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="../02_Back_End/assests/ainkaranaTika/single.html">The best car rent in the entire planet</a></h2>
+                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="../02_Back_End/assests/ainkaranaTika/single.html">
+                    <img src="assets/images/img_2.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="../02_Back_End/assests/ainkaranaTika/single.html">The best car rent in the entire planet</a></h2>
+                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="../02_Back_End/assests/ainkaranaTika/single.html">
+                    <img src="assets/images/img_3.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="../02_Back_End/assests/ainkaranaTika/single.html">The best car rent in the entire planet</a></h2>
+                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="../02_Back_End/assests/ainkaranaTika/single.html">
+                    <img src="assets/images/post_1.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="../02_Back_End/assests/ainkaranaTika/single.html">The best car rent in the entire planet</a></h2>
+                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="../02_Back_End/assests/ainkaranaTika/single.html">
+                    <img src="assets/images/img_2.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="../02_Back_End/assests/ainkaranaTika/single.html">The best car rent in the entire planet</a></h2>
+                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 mb-4">
+                <div class="post-entry-1 h-100">
+                  <a href="../02_Back_End/assests/ainkaranaTika/single.html">
+                    <img src="assets/images/img_3.jpg" alt="Image"
+                         class="img-fluid">
+                  </a>
+                  <div class="post-entry-1-contents">
+
+                    <h2><a href="../02_Back_End/assests/ainkaranaTika/single.html">The best car rent in the entire planet</a></h2>
+                    <span class="meta d-inline-block mb-3">July 17, 2019 <span class="mx-2">by</span> <a href="#">Admin</a></span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <span class="p-3">1</span>
+                <a href="#" class="p-3">2</a>
+                <a href="#" class="p-3">3</a>
+                <a href="#" class="p-3">4</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container site-section mb-5">
+          <div class="row justify-content-center text-center">
+            <div class="col-7 text-center mb-5">
+              <h2>How it works</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>
+            </div>
+          </div>
+          <div class="how-it-works d-flex">
+            <div class="step">
+              <span class="number"><span>01</span></span>
+              <span class="caption">Time &amp; Place</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>02</span></span>
+              <span class="caption">Car</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>03</span></span>
+              <span class="caption">Details</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>04</span></span>
+              <span class="caption">Checkout</span>
+            </div>
+            <div class="step">
+              <span class="number"><span>05</span></span>
+              <span class="caption">Done</span>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <section id="contact">
+
+        <div class="ftco-blocks-cover-1">
+          <div class="ftco-cover-1 overlay innerpage" style="background-image: url('assets/images/hero_2.jpg')">
+            <div class="container">
+              <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h1>Contact Us</h1>
+<!--                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-section bg-light" id="contact-section">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-7 text-center mb-5">
+                <h2>Contact Us Or Send Message</h2>
+<!--                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo assumenda, dolorum necessitatibus eius earum voluptates sed!</p>-->
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 mb-5" >
+                <form action="#" method="post">
+                  <div class="form-group row">
+                    <div class="col-md-6 mb-4 mb-lg-0">
+                      <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-12">
+                      <input type="text" class="form-control" placeholder="Email address">
+                    </div>
+                  </div>
+
+                  <div class="form-group row">
+                    <div class="col-md-12">
+                      <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-md-6 mr-auto">
+                      <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="Send Message">
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 ml-auto">
+                <div class="bg-white p-3 p-md-5">
+                  <h3 class="text-black mb-4">Contact Info</h3>
+                  <ul class="list-unstyled footer-link">
+                    <li class="d-block mb-3">
+                      <span class="d-block text-black">Address:</span>
+                      <span>No. 200, Galle Road Panadura, Sri Lanka</span></li>
+                    <li class="d-block mb-3"><span class="d-block text-black">Phone:</span><span>+111 242 4942</span></li>
+                    <li class="d-block mb-3"><span class="d-block text-black">Email:</span><span>easycar@gamail.com</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <section id="manageCars">
+        <section class="col-12">
+          <div class="jumbotron bg-beige">
+            <h6 class="h1">Manage Vehicles</h6>
+          </div>
+          <section class="row mt-0">
+
+            <div class="col-lg-12 col-sm-12 col-md-8 col-xl-12 bg-white pt-4 <!--border--> shadow-none">
+              <form action="">
+<!--                <h3 class="">Bill info</h3>-->
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarNo">Car No</label>
+                    <input type="text" class="form-control" id="txtCarNo" placeholder="Car No">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarModel">Model</label>
+                    <input class="form-control" id="txtCarModel" type="text" placeholder="Model">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarColour">Colour</label>
+                    <input type="text" class="form-control" id="txtCarColour" placeholder="Colour">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarBrand">Brand</label>
+                    <input type="text" class="form-control" id="txtCarBrand" placeholder="Brand">
+                  </div>
+                </section>
+                <!--<section class="row">
+                  <div class="form-group col-sm-4 col-md-4">
+                    <label>Item code :</label>
+                    <select class="form-control" id="selectItemCode">
+                      <option value="default" disabled selected>Item Code</option>
+                    </select>
+                    <span class="control-error"
+                          id="item-empty-error"></span>
+                  </div>
+                  <div class="form-group col-sm-4 col-md-4">
+                    <label for="itemID">Item ID</label>
+                    <input type="text" class="form-control" id="itemID">
+                  </div>
+                  &lt;!&ndash; <div class="form-group col-sm-4 col-md-4">
+                       <label for="unitPrice">Unit Price</label>
+                       <input type="text" class="form-control" id="unitPrice">
+                   </div>&ndash;&gt;
+                  <div class="form-group col-sm-4 col-md-4">
+                    <label for="unitPrice">Unit Price</label>
+                    <input type="text" class="form-control" id="unitPrice">
+                  </div>
+                </section>-->
+
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarFuelType">Fuel type</label>
+                    <input type="text" class="form-control" id="txtCarFuelType" placeholder="Fuel type">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarTransmissionType">Transmission type</label>
+                    <input class="form-control" id="txtCarTransmissionType" type="text" placeholder="Transmission type">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarNoOfPassengers">No of Passengers</label>
+                    <input type="text" class="form-control" id="txtCarNoOfPassengers" placeholder="No of Passengers">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarDailyRateForKm">Daily Rate for Km</label>
+                    <input type="text" class="form-control" id="txtCarDailyRateForKm" placeholder="Daily Rate for Km">
+                  </div>
+                </section>
+
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-2">
+                    <label for="txtCarMonthlyRateForKm">Monthly Rate for Km</label>
+                    <input type="text" class="form-control" id="txtCarMonthlyRateForKm" placeholder="Monthly Rate for Km">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-2">
+                    <label for="txtCarDailyRateforRs">Daily Rate for Rs</label>
+                    <input class="form-control" id="txtCarDailyRateforRs" type="text" placeholder="Daily Rate for Rs">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-2">
+                    <label for="txtCarMonthlyRateforRs">Monthly Rate for Rs</label>
+                    <input type="text" class="form-control" id="txtCarMonthlyRateforRs" placeholder="Monthly Rate for Rs">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarPrizeExtraKm">Prize extra Km</label>
+                    <input type="text" class="form-control" id="txtCarPrizeExtraKm" placeholder="Prize extra Km">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarTotalMillage">Total Millage</label>
+                    <input type="text" class="form-control" id="txtCarTotalMillage" placeholder="Total Millage">
+                  </div>
+                </section>
+
+                <section class="row justify-content-start">
+                  <div class="form-group">
+                    <button type="button" id="btnSaveCar" class="btn btn-danger" onclick="saveCars()">Add</button>
+                    <button type="button" id="btnUpdateCar" class="btn btn-primary ">Update</button>
+                    <button type="button" id="btnDeleteCar" class="btn btn-dark ">Delete</button>
+                    <button type="button" id="btnSearchCar" class="btn btn-secondary ">Search</button>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                  </div>
+                </section>
+
+              </form>
+
+
+            </div>
+
+            <div class="col-xl-12">
+              <section class="table-responsive">
+                <table class="p-2 table table-bordered table-sm table-hover">
+                  <thead class="bg-primary">
+                  <tr>
+                    <th>Car No</th>
+                    <th>Model</th>
+                    <th>Colour</th>
+                    <th>Brand</th>
+                    <th>Fuel type</th>
+                    <th>Tranmission type</th>
+                    <th>No of Passengers</th>
+                    <th>Daily Rate for Km</th>
+                    <th>Monthly Rate for Km</th>
+                    <th>Daily rate for Rs</th>
+                    <th>Monthly rate for Rs</th>
+                    <th>Prize Extra km</th>
+                    <th>Total Millage</th>
+                  </tr>
+                  </thead>
+                  <tbody id="tblCars">
+                  <!--<tr>
+                      <td>I001</td>
+                      <td>Flour</td>
+                      <td>2</td>
+                      <td>RS 200.00</td>
+                      <td>RS 400.00</td>
+                  </tr>
+
+                  <tr>
+                      <td>I001</td>
+                      <td>Flour</td>
+                      <td>2</td>
+                      <td>RS 200.00</td>
+                      <td>RS 400.00</td>
+                  </tr>-->
+                  </tbody>
+                </table>
+              </section>
+            </div>
+
+          </section>
+
+        </section>
+
+
+        <div class="site-section bg-white">
+
+        </div>
+
+
+      </section>
+
+
+
+      <section id="manageDrivers">
+        <section class="col-12">
+          <div class="jumbotron bg-beige">
+            <h6 class="h1">Manage Drivers</h6>
+          </div>
+          <section class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 border pt-4 pb-3 bg-light">
+              <form action="">
+                <div class="form-group">
+                  <label for="txtDriverID">Driver ID</label>
+                  <input type="text" class="form-control" id="txtDriverID" placeholder="Id">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverName">Name</label>
+                  <input type="text" class="form-control" id="txtDriverName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverAddress">Address</label>
+                  <input type="text" class="form-control" id="txtDriverAddress" placeholder="Address">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverNic">NIC</label>
+                  <input type="text" class="form-control" id="txtDriverNic" placeholder="NIC">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverContact">Contact</label>
+                  <input type="text" class="form-control" id="txtDriverContact" placeholder="Contact">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverEmail">Email</label>
+                  <input type="text" class="form-control" id="txtDriverEmail" placeholder="Contact">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverPassword">Password</label>
+                  <input type="text" class="form-control" id="txtDriverPassword" placeholder="Contact">
+                </div>
+                <section class="row justify-content-start">
+                  <div class="form-group">
+                    <button id="btnSaveDriver" type="button" class="btn btn-primary">Add</button>
+                    <button id="btnUpdateDriver" type="button" class="btn btn-secondary">Update</button>
+                    <button id="btnDeleteDriver" type="button" class="btn btn-danger">Delete</button>
+                    <button id="btnSearchDriver" type="button" class="btn btn-primary">Search</button>
+                  </div>
+                </section>
+              </form>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-8 <!--border-->">
+
+
+              <form class="form-inline my-2 my-lg-2 justify-content-end">
+                <input class="form-control mr-sm-2 mt-2 my-2" type="search" placeholder="Search"
+                       aria-label="Search">
+                <button class="btn btn-outline-warning my-1 my-sm-0 mt-2 " type="submit">Search</button>
+              </form>
+              <section class="table-responsive h-75">
+                <table class="table table-bordered table-hover table-sm" data-spy="scroll" data-offset="0">
+                  <thead class="bg-primary">
+                  <tr>
+                    <th>Driver ID</th>
+                    <th>Driver Name</th>
+                    <th>Driver Address</th>
+                    <th>NIC</th>
+                    <th>Contact</th>
+                  </tr>
+                  <thead>
+                  <tbody id="tblDrivers">
+                  <!-- <tr>
+                       <td>C001</td>
+                       <td>Lasindu</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>
+
+
+
+                   <tr>
+                       <td>C003</td>
+                       <td>Ashan</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>-->
+
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </section>
+        </section>
+
+        <div class="site-section bg-white">
+
+        </div>
+
+        <section class="col-12">
+          <div class="jumbotron bg-beige">
+            <h6 class="h1">Manage Customers</h6>
+          </div>
+          <section class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 border pt-4 pb-3 bg-light">
+              <form action="">
+                <div class="form-group">
+                  <label for="txtDriverID">Customer ID</label>
+                  <input type="text" class="form-control" id="txtCustomerID" placeholder="Id">
+                </div>
+                <div class="form-group">
+                  <label for="txtCustomerName">Name</label>
+                  <input type="text" class="form-control" id="txtCustomerName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="txtCustomerAddress">Address</label>
+                  <input type="text" class="form-control" id="txtCustomerAddress" placeholder="Address">
+                </div>
+                <div class="form-group">
+                  <label for="txtCustomerContact">Contact</label>
+                  <input type="text" class="form-control" id="txtCustomerContact" placeholder="NIC">
+                </div>
+                <div class="form-group">
+                  <label for="txtCustomerNic">Nic</label>
+                  <input type="text" class="form-control" id="txtCustomerNic" placeholder="Contact">
+                </div>
+
+                <section class="row justify-content-start">
+                  <div class="form-group">
+                    <button id="btnSaveriver" type="button" class="btn btn-primary">Add</button>
+                    <button id="btnUpdateiver" type="button" class="btn btn-secondary">Update</button>
+                    <button id="btnDeleteiver" type="button" class="btn btn-danger">Delete</button>
+                    <button id="btnSeahDriver" type="button" class="btn btn-primary">Search</button>
+                  </div>
+                </section>
+              </form>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-8 <!--border-->">
+
+
+              <form class="form-inline my-2 my-lg-2 justify-content-end">
+                <input class="form-control mr-sm-2 mt-2 my-2" type="search" placeholder="Search"
+                       aria-label="Search">
+                <button class="btn btn-outline-warning my-1 my-sm-0 mt-2 " type="submit">Search</button>
+              </form>
+              <section class="table-responsive h-75">
+                <table class="table table-bordered table-hover table-sm" data-spy="scroll" data-offset="0">
+                  <thead class="bg-primary">
+                  <tr>
+                    <th>Customer ID</th>
+                    <th>Customer Name</th>
+                    <th>Custoemr Address</th>
+                    <th>NIC</th>
+                    <th>Contact</th>
+                  </tr>
+                  <thead>
+                  <tbody id="tblCustomers">
+                  <!-- <tr>
+                       <td>C001</td>
+                       <td>Lasindu</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>
+
+
+
+                   <tr>
+                       <td>C003</td>
+                       <td>Ashan</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>-->
+
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </section>
+        </section>
+
+
+
+       <!-- <div class="container site-section mb-5">
+
+        </div>
+
+
+        <div class="site-section bg-light">
+
+        </div>-->
+
+
+        <div class="site-section bg-white">
+
+        </div>
+
+      </section>
+
+
+
+      <section id="loginForm">
+        <div class="limiter">
+          <div class="container-login100">
+
+
+            <div class="wrap-login100">
+              <div class="login100-form-title" style="background-image: url(assets/images/loginHeader.jpg);">
+					<span class="login100-form-title-1">
+						Login
+					</span>
+              </div>
+
+              <form class="login100-form validate-form">
+                <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                  <span class="label-input100">Useremail</span>
+                  <input class="input100" type="text" name="username" placeholder="Enter useremail" id="txtLoginUserEmail">
+                  <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
+                  <span class="label-input100">Password</span>
+                  <input class="input100" type="password" name="pass" placeholder="Enter password" id="txtLoginUserPassword">
+                  <span class="focus-input100"></span>
+                </div>
+
+                <div class="flex-sb-m w-full p-b-30">
+                  <div class="contact100-form-checkbox">
+                    <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+                    <label class="label-checkbox100" for="ckb1">
+                      Remember me
+                    </label>
+                  </div>
+
+                  <div>
+                    <a href="#" class="txt1">
+                      Forgot Password?
+                    </a>
+                  </div>
+                </div>
+
+                <div class="container-login100-form-btn">
+                  <button class="login100-form-btn" id="btn-loginForm" type="button">
+                    Login
+                  </button>
+
+
+                  <button class="login100-form-btn btn-success" id="btn-loginFormSignUp" type="button" style="background-color: #8ae7fc">
+                    SignUp
+                  </button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="signUpForm">
+        <div class="limiter">
+          <div class="container-login100">
+
+
+            <div class="wrap-login100">
+              <div class="login100-form-title" style="background-image: url(assets/images/loginHeader.jpg);">
+					<span class="login100-form-title-1">
+						Sign Up
+					</span>
+              </div>
+
+              <form class="login100-form validate-form">
+                <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                  <span class="label-input100">Name</span>
+                  <input class="input100" type="text" name="username" placeholder="Enter name" id="txtSingUpName">
+                  <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                  <span class="label-input100">Address</span>
+                  <input class="input100" type="text" name="username" placeholder="Enter address" id="txtSingUpAddress">
+                  <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                  <span class="label-input100">Contact</span>
+                  <input class="input100" type="text" name="username" placeholder="Enter contact" id="txtSingUpContact">
+                  <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                  <span class="label-input100">NIC No</span>
+                  <input class="input100" type="text" name="username" placeholder="Enter nic no" id="txtSingUpNIC">
+                  <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                  <span class="label-input100">Email</span>
+                  <input class="input100" type="text" name="username" placeholder="Enter email" id="txtSingUpEmail">
+                  <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
+                  <span class="label-input100">Password</span>
+                  <input class="input100" type="text" name="username" placeholder="Enter password" id="txtSingUpPassword">
+                  <span class="focus-input100"></span>
+                </div>
+
+
+                <div class="container-login100-form-btn">
+                  <button class="login100-form-btn" type="button" id="btn-registerCustomer">
+                    Register
+                  </button>
+                </div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="manageCustomerRequests">
+        <section class="col-12">
+          <div class="jumbotron bg-beige">
+            <h6 class="h1">Manage Requests</h6>
+          </div>
+          <section class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 border pt-4 pb-3 bg-light">
+              <form action="">
+                <div class="form-group">
+                  <label for="txtDriverID">Request ID</label>
+                  <input type="text" class="form-control" id="txtRequestID">
+                </div>
+               <!-- <div class="form-group">
+                  <label for="txtDriverName">Name</label>
+                  <input type="text" class="form-control" id="txtDrirName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverAddress">Address</label>
+                  <input type="text" class="form-control" id="txtDrivAddress" placeholder="Address">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverNic">NIC</label>
+                  <input type="text" class="form-control" id="txtDverNic" placeholder="NIC">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverContact">Contact</label>
+                  <input type="text" class="form-control" id="txtDrirContact" placeholder="Contact">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverEmail">Email</label>
+                  <input type="text" class="form-control" id="txtDrivrEmail" placeholder="Contact">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverPassword">Password</label>
+                  <input type="text" class="form-control" id="txtDriverssword" placeholder="Contact">
+                </div>-->
+                <section class="row justify-content-start">
+                  <div class="form-group">
+                    <button id="btnAcceptRequest" type="button" class="btn btn-primary">Accept</button>
+                    <button id="btnDeclineRequest" type="button" class="btn btn-secondary">Decline</button>
+                    <!--<button id="btnDeleeDriver" type="button" class="btn btn-danger">Delete</button>
+                    <button id="btnSearchDiver" type="button" class="btn btn-primary">Search</button>-->
+                  </div>
+                </section>
+              </form>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-8 <!--border-->">
+
+
+           <!--   <form class="form-inline my-2 my-lg-2 justify-content-end">
+                <input class="form-control mr-sm-2 mt-2 my-2" type="search" placeholder="Search"
+                       aria-label="Search">
+                <button class="btn btn-outline-warning my-1 my-sm-0 mt-2 " type="submit">Search</button>
+              </form>-->
+              <section class="table-responsive h-75">
+                <table class="table table-bordered table-hover table-sm" data-spy="scroll" data-offset="0">
+                  <thead class="bg-primary">
+                  <tr>
+                    <th>Req ID</th>
+                    <th>Car No</th>
+                    <th>Car Model</th>
+                    <th>CustomerName</th>
+                    <th>Driver</th>
+                    <th>DamageFee</th>
+                    <th>PickupDate</th>
+                    <th>ReturnDate</th>
+                  </tr>
+                  <thead>
+                  <tbody id="tblRequets">
+                  <!-- <tr>
+                       <td>C001</td>
+                       <td>Lasindu</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>
+
+                   <tr>
+                       <td>C003</td>
+                       <td>Ashan</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>-->
+
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </section>
+          <!-- <section class="row" style="background: #6A6E71;">
+               <h1 class="col-12 text-center">Customer Details</h1>
+           </section>
+               <form class="col-sm-12 form-inline my-2 my-lg-2 justify-content-end">
+                   <input class="form-control mr-sm-2 mt-2 my-2" type="search" placeholder="Search" aria-label="Search">
+                   <button class="btn btn-outline-success my-1 my-sm-0 mt-2 "  type="submit">Search</button>
+               </form>
+
+           <section class="table-responsive table-sm">
+               <table class="table table-bordered table-hover">
+                   <thead class="bg-success">
+                   <tr>
+                       <th>Customer ID</th>
+                       <th>Customer Name</th>
+                       <th>Item ID</th>
+                       <th>Shipping Qty</th>
+                       <th>Shipping Date</th>
+                   </tr>
+                   </thead>
+                   <tbody>
+                   <tr>
+                       <td>C001</td>
+                       <td>Navod Sachindra</td>
+                       <td>I001</td>
+                       <td>3</td>
+                       <td>5/7/2020</td>
+                   </tr>
+                   </tbody>
+               </table>
+
+           </section>-->
+        </section>
+
+
+        <div class="site-section bg-light">
+
+        </div>
+
+
+
+        <div class="container site-section mb-5">
+
+        </div>
+
+        <section class="col-12">
+          <div class="jumbotron bg-beige">
+            <h6 class="h1">Manage Car Bookings</h6>
+          </div>
+          <section class="row">
+            <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 border pt-4 pb-3 bg-light">
+              <form action="">
+                <div class="form-group">
+                  <label for="txtDriverID">Car No</label>
+                  <input type="text" class="form-control" id="txtDriveID" placeholder="no">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverName">Car Model</label>
+                  <input type="text" class="form-control" id="txtDriveName" placeholder="model">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverAddress">Cus ID</label>
+                  <input type="text" class="form-control" id="txtDriveAddress" placeholder="cus Id">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverNic">Name</label>
+                  <input type="text" class="form-control" id="txtDrierNic" placeholder="name">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverContact">Driver Id</label>
+                  <input type="text" class="form-control" id="txtDrivrCntact" placeholder="driverName">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverEmail">PickUpDate</label>
+                  <input type="text" class="form-control" id="txtDrivrEmail" placeholder="pickupdate">
+                </div>
+                <div class="form-group">
+                  <label for="txtDriverPassword">ReturnDate</label>
+                  <input type="text" class="form-control" id="txtDrivPassword" placeholder="returnDate">
+                </div>
+                <section class="row justify-content-start">
+                  <div class="form-group">
+<!--                    <button id="btnSeDriver" type="button" class="btn btn-primary">Add</button>-->
+                    <button id="btpdateDriver" type="button" class="btn btn-secondary">Update</button>
+                    <button id="btnDeteDriver" type="button" class="btn btn-danger">Delete</button>
+                    <button id="btnSearcriver" type="button" class="btn btn-primary">Search</button>
+                  </div>
+                </section>
+              </form>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-8 <!--border-->">
+
+
+              <form class="form-inline my-2 my-lg-2 justify-content-end">
+                <input class="form-control mr-sm-2 mt-2 my-2" type="search" placeholder="Search"
+                       aria-label="Search">
+                <button class="btn btn-outline-warning my-1 my-sm-0 mt-2 " type="submit">Search</button>
+              </form>
+              <section class="table-responsive h-75">
+                <table class="table table-bordered table-hover table-sm" data-spy="scroll" data-offset="0">
+                  <thead class="bg-primary">
+                  <tr>
+                    <th>Car No</th>
+                    <th>Car Model</th>
+                    <th>Cus ID</th>
+                    <th>Name</th>
+                    <th>DriverID</th>
+                    <th>DriverName</th>
+                    <th>PickupDate</th>
+                    <th>Return Date</th>
+                    <th>Damage Fee</th>
+                  </tr>
+                  <thead>
+                  <tbody id="tblBookingDetails">
+                  <!-- <tr>
+                       <td>C001</td>
+                       <td>Lasindu</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>
+
+                   <tr>
+                       <td>C002</td>
+                       <td>Lasindu Ashan</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>
+
+                   <tr>
+                       <td>C003</td>
+                       <td>Ashan</td>
+                       <td>Horana</td>
+                       <td>993520977V</td>
+                       <td>077876234</td>
+                   </tr>-->
+
+                  </tbody>
+                </table>
+              </section>
+            </div>
+          </section>
+          <!-- <section class="row" style="background: #6A6E71;">
+               <h1 class="col-12 text-center">Customer Details</h1>
+           </section>
+               <form class="col-sm-12 form-inline my-2 my-lg-2 justify-content-end">
+                   <input class="form-control mr-sm-2 mt-2 my-2" type="search" placeholder="Search" aria-label="Search">
+                   <button class="btn btn-outline-success my-1 my-sm-0 mt-2 "  type="submit">Search</button>
+               </form>
+
+           <section class="table-responsive table-sm">
+               <table class="table table-bordered table-hover">
+                   <thead class="bg-success">
+                   <tr>
+                       <th>Customer ID</th>
+                       <th>Customer Name</th>
+                       <th>Item ID</th>
+                       <th>Shipping Qty</th>
+                       <th>Shipping Date</th>
+                   </tr>
+                   </thead>
+                   <tbody>
+                   <tr>
+                       <td>C001</td>
+                       <td>Navod Sachindra</td>
+                       <td>I001</td>
+                       <td>3</td>
+                       <td>5/7/2020</td>
+                   </tr>
+                   </tbody>
+               </table>
+
+           </section>-->
+        </section>
+
+        <div class="site-section bg-light">
+
+        </div>
+
+
+        <div class="site-section bg-white">
+
+        </div>
+
+      </section>
+
+
+
+      <section id="payment">
+        <section class="col-12">
+          <div class="jumbotron bg-beige">
+            <h6 class="h1">Manage Payment</h6>
+          </div>
+          <section class="row mt-0">
+
+            <!--<div class="col-lg-12 col-sm-12 col-md-8 col-xl-12 bg-light pt-4 &lt;!&ndash;border&ndash;&gt; shadow-none">
+              <form action="">
+                &lt;!&ndash;                <h3 class="">Bill info</h3>&ndash;&gt;
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarNo">Car No</label>
+                    <input type="text" class="form-control" id="txtarNo" placeholder="Car No">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarModel">Model</label>
+                    <input class="form-control" id="txtCarodel" type="text" placeholder="Model">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarColour">Colour</label>
+                    <input type="text" class="form-control" id="txtarColour" placeholder="Colour">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarBrand">Brand</label>
+                    <input type="text" class="form-control" id="txtCrBrand" placeholder="Brand">
+                  </div>
+                </section>
+                &lt;!&ndash;<section class="row">
+                  <div class="form-group col-sm-4 col-md-4">
+                    <label>Item code :</label>
+                    <select class="form-control" id="selectItemCode">
+                      <option value="default" disabled selected>Item Code</option>
+                    </select>
+                    <span class="control-error"
+                          id="item-empty-error"></span>
+                  </div>
+                  <div class="form-group col-sm-4 col-md-4">
+                    <label for="itemID">Item ID</label>
+                    <input type="text" class="form-control" id="itemID">
+                  </div>
+                  &lt;!&ndash; <div class="form-group col-sm-4 col-md-4">
+                       <label for="unitPrice">Unit Price</label>
+                       <input type="text" class="form-control" id="unitPrice">
+                   </div>&ndash;&gt;
+                  <div class="form-group col-sm-4 col-md-4">
+                    <label for="unitPrice">Unit Price</label>
+                    <input type="text" class="form-control" id="unitPrice">
+                  </div>
+                </section>&ndash;&gt;
+
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarFuelType">Fuel type</label>
+                    <input type="text" class="form-control" id="txtarFuelType" placeholder="Fuel type">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarTransmissionType">Transmission type</label>
+                    <input class="form-control" id="txtCarTrasmissionType" type="text" placeholder="Transmission type">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarNoOfPassengers">No of Passengers</label>
+                    <input type="text" class="form-control" id="txtCrNoOfPassengers" placeholder="No of Passengers">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarDailyRateForKm">Daily Rate for Km</label>
+                    <input type="text" class="form-control" id="txtCaDailyRateForKm" placeholder="Daily Rate for Km">
+                  </div>
+                </section>
+
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-2">
+                    <label for="txtCarMonthlyRateForKm">Monthly Rate for Km</label>
+                    <input type="text" class="form-control" id="txtarMonthlyRateForKm" placeholder="Monthly Rate for Km">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-2">
+                    <label for="txtCarDailyRateforRs">Daily Rate for Rs</label>
+                    <input class="form-control" id="txtCarDailyateforRs" type="text" placeholder="Daily Rate for Rs">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-2">
+                    <label for="txtCarMonthlyRateforRs">Monthly Rate for Rs</label>
+                    <input type="text" class="form-control" id="txtCarMonthlRateforRs" placeholder="Monthly Rate for Rs">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarPrizeExtraKm">Prize extra Km</label>
+                    <input type="text" class="form-control" id="txtCaPrizeExtraKm" placeholder="Prize extra Km">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtCarTotalMillage">Total Millage</label>
+                    <input type="text" class="form-control" id="txtCarotalMillage" placeholder="Total Millage">
+                  </div>
+                </section>
+
+                <section class="row justify-content-start">
+                  <div class="form-group">
+                    <button type="button" id="btnSaeCar" class="btn btn-danger" onclick="saveCars()">Pay</button>
+                    <button type="button" id="btnUpdteCar" class="btn btn-primary ">Update</button>
+                    <button type="button" id="btnDelteCar" class="btn btn-dark ">Delete</button>
+                    <button type="button" id="btnSeachCar" class="btn btn-secondary ">Search</button>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                  </div>
+                </section>
+
+              </form>
+
+
+            </div>-->
+
+            <div class="col-lg-6 col-sm-12 col-md-8 col-xl-9 bg-white pt-4 <!--border--> shadow-lg">
+              <form action="">
+                <h3 class="">Bill info</h3>
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentCarNo">Car No</label>
+                    <input type="text" class="form-control" id="txtPaymentCarNo">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentCarModel">Model</label>
+                    <input class="form-control" id="txtPaymentCarModel" type="text">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-2">
+                    <label for="txtPaymentDailyRateForKm">Daily rate for Km</label>
+                    <input type="text" class="form-control" id="txtPaymentDailyRateForKm">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-2">
+                    <label for="txtPaymentMonthlyRateForKm">Monthly rate Km</label>
+                    <input type="text" class="form-control" id="txtPaymentMonthlyRateForKm">
+                  </div>
+                </section>
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentDailyRateForRs">Daily rate for Rs</label>
+                    <input type="text" class="form-control" id="txtPaymentDailyRateForRs">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentMonthlyRateForRs">Monthly rate for Rs</label>
+                    <input type="text" class="form-control" id="txtPaymentMonthlyRateForRs">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentPrizeExtraKm">Prize extra Km</label>
+                    <input type="text" class="form-control" id="txtPaymentPrizeExtraKm">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentTotalMillage">Total Millage</label>
+                    <input type="text" class="form-control" id="txtPaymentTotalMillage">
+                  </div>
+                </section>
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentPickUpDate">Pickup Date</label>
+                    <input type="text" class="form-control" id="txtPaymentPickUpDate">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentDueDate">Due Date</label>
+                    <input type="text" class="form-control" id="txtPaymentDueDate">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentCusID">Cus ID</label>
+                    <input type="text" class="form-control" id="txtPaymentCusID">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentCusName">Cus Name</label>
+                    <input type="text" class="form-control" id="txtPaymentCusName">
+                  </div>
+                </section>
+                <section class="row">
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentDriverID">Driver ID</label>
+                    <input type="text" class="form-control" id="txtPaymentDriverID">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentDriverName">Driver Name</label>
+                    <input type="text" class="form-control" id="txtPaymentDriverName">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentTotlage">Cus ID</label>
+                    <input type="text" class="form-control" id="txtPaymentTotlage">
+                  </div>
+                  <div class="form-group p-3 col-sm-4 col-md-4 col-lg-3">
+                    <label for="txtPaymentTotalMillage">Cus Name</label>
+                    <input type="text" class="form-control" id="txtPymtToalage">
+                  </div>
+                </section>
+                <section class="row justify-content-start">
+                  <div class="form-group">
+<!--                    <button type="button" id="btnAddToCart" class="btn btn-danger">Add to cart</button>-->
+                    <button class="btn btn-dark" id="btnSearchBookingDetailPayment" type="button">Search</button>
+                  </div>
+                </section>
+
+              </form>
+              <!--<section class="table-responsive">
+                <table class="p-2 table table-bordered table-sm table-hover">
+                  <thead class="bg-primary">
+                  <tr>
+                    <th>Item ID</th>
+                    <th>Description</th>
+                    <th>Qty</th>
+                    <th>Unit Price</th>
+                    <th>total</th>
+                  </tr>
+                  </thead>
+                  <tbody id="tblOrder">
+                  &lt;!&ndash;<tr>
+                      <td>I001</td>
+                      <td>Flour</td>
+                      <td>2</td>
+                      <td>RS 200.00</td>
+                      <td>RS 400.00</td>
+                  </tr>
+                  <tr>
+                      <td>I001</td>
+                      <td>Flour</td>
+                      <td>2</td>
+                      <td>RS 200.00</td>
+                      <td>RS 400.00</td>
+                  </tr>
+                  <tr>
+                      <td>I001</td>
+                      <td>Flour</td>
+                      <td>2</td>
+                      <td>RS 200.00</td>
+                      <td>RS 400.00</td>
+                  </tr>
+                  <tr>
+                      <td>I001</td>
+                      <td>Flour</td>
+                      <td>2</td>
+                      <td>RS 200.00</td>
+                      <td>RS 400.00</td>
+                  </tr>&ndash;&gt;
+                  </tbody>
+                </table>
+              </section>-->
+
+            </div>
+            <div class="col-lg-3 col-sm-12 col-md-12 col-xl-3 pt-4 pb-4 <!--border--> shadow-none bg-light">
+              <form action="">
+                <h3 class="">Balance info</h3>
+                <div class="form-group">
+                  <label for="total">Total</label>
+                  <input type="text" class="form-control" id="total">
+                </div>
+                <div class="form-group">
+                  <label for="subTotal">Sub Total</label>
+                  <input type="text" class="form-control" id="subTotal">
+                </div>
+                <div class="form-group">
+                  <label for="cash">Cash</label>
+                  <input type="text" class="form-control" id="cash">
+                </div>
+                <div class="form-group">
+                  <label for="discount">Discount</label>
+                  <input type="text" class="form-control" id="discount">
+                </div>
+                <div class="form-group">
+                  <label for="balance">Balance</label>
+                  <input type="text" class="form-control" id="balance">
+                </div>
+
+                <section class="row justify-content-start">
+                  <div class="btn p-0">
+                    <button class="btn bg-danger" style="color: white;">Payment</button>
+                  </div>
+                </section>
+                <!--<div class="btn p-0 justify-content-center">
+                    <button class="btn bg-secondary">Pay</button>
+                </div>-->
+              </form>
+            </div>
+
+            <div class="col-xl-12">
+              <section class="table-responsive">
+                <table class="p-2 table table-bordered table-sm table-hover">
+                  <thead class="bg-primary">
+                  <tr>
+                    <th>Car No</th>
+                    <th>Model</th>
+                    <th>Colour</th>
+                    <th>Brand</th>
+                    <th>Fuel type</th>
+                    <th>Tranmission type</th>
+                    <th>No of Passengers</th>
+                    <th>Daily Rate for Km</th>
+                    <th>Monthly Rate for Km</th>
+                    <th>Daily rate for Rs</th>
+                    <th>Monthly rate for Rs</th>
+                    <th>Prize Extra km</th>
+                    <th>Total Millage</th>
+                  </tr>
+                  </thead>
+                  <tbody id="tblPayment">
+                  <!--<tr>
+                      <td>I001</td>
+                      <td>Flour</td>
+                      <td>2</td>
+                      <td>RS 200.00</td>
+                      <td>RS 400.00</td>
+                  </tr>
+
+                  <tr>
+                      <td>I001</td>
+                      <td>Flour</td>
+                      <td>2</td>
+                      <td>RS 200.00</td>
+                      <td>RS 400.00</td>
+                  </tr>-->
+                  </tbody>
+                </table>
+              </section>
+            </div>
+
+          </section>
+
+        </section>
+
+
+        <div class="site-section bg-white">
+
+        </div>
+
+
+      </section>
+
+
+
+      <section id="footer">
+      <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h2 class="footer-heading mb-4">About Us</h2>
+            <p>Eazy car rental privete limited is a car rental setvice with 5 years of history.</p>
+          </div>
+          <div class="col-lg-8 ml-auto">
+            <div class="row">
+              <div class="col-lg-3">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-3">
+                <h2 class="footer-heading mb-4">Quick Links</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This web site is made in <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="#" target="_blank" >Ashan</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+      </section>
+
+    </div>
+
+    <script src="assets/jq/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.animateNumber.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/controller/NavigationController.js"></script>
+    <script src="assets/controller/LoginController.js"></script>
+    <script src="assets/controller/CustomerController.js"></script>
+    <script src="assets/controller/DriverController.js"></script>
+    <script src="assets/controller/CarController.js"></script>
+    <script src="assets/controller/RentController.js"></script>
+    <script src="assets/controller/DashBoardController.js"></script>
+    <script src="assets/controller/PaymentController.js"></script>
+
+
+  </body>
+
+</html>
+
